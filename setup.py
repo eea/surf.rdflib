@@ -41,5 +41,6 @@ setup(
     install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'surf >= 1.0.0',
     ]
 )

@@ -34,7 +34,6 @@
 
 # -*- coding: utf-8 -*-
 __author__ = 'Cosmin Basca'
-import pdb; pdb.set_trace()
 
 from surf.plugin.query_reader import RDFQueryReader
 from surf.rdf import ConjunctiveGraph
