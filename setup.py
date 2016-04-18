@@ -21,12 +21,9 @@ setup(
     long_description=DESCRIPTION,
     author='Cosmin Basca',
     author_email='webadmin@eea.europa.eu',
-    url='http://plone.org/products/surf.rdflib',
+    url='http://github.com/eea/surf.rdflib',
     license='MPL',
-    packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['surf'],
-    include_package_data=True,
-    zip_safe=False,
+    packages=['surf_rdflib'],
     entry_points="""
       # -*- Entry points: -*-
       [z3c.autoinclude.plugin]
