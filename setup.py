@@ -24,11 +24,6 @@ setup(
     url='http://github.com/eea/surf.rdflib',
     license='MPL',
     packages=['surf_rdflib'],
-    entry_points="""
-      # -*- Entry points: -*-
-      [z3c.autoinclude.plugin]
-      target = plone
-      """,
     entry_points = {
         'surf.plugins.reader': 'rdflib = surf_rdflib.reader:ReaderPlugin',
         'surf.plugins.writer': 'rdflib = surf_rdflib.writer:WriterPlugin',
