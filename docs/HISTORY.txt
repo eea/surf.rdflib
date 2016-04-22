@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.3.dev0 - (unreleased)
+-----------------------
+
 1.2 - (2016-04-22)
 ------------------
 * Bug fix: fixed entry_points
