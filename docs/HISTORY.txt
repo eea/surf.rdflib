@@ -1,7 +1,8 @@
 Changelog
 =========
 
-1.1.dev0 - (unreleased)
------------------------
+1.1 - (2016-04-22)
+------------------
 * Feature: initial release
   [alecghica refs #70945]
+
