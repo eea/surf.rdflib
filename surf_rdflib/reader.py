@@ -40,7 +40,6 @@ from surf.rdf import ConjunctiveGraph
 
 class ReaderPlugin(RDFQueryReader):
     def __init__(self, *args, **kwargs):
-        #import pdb; pdb.set_trace()
         RDFQueryReader.__init__(self, *args, **kwargs)
 
         self.__rdflib_store = kwargs.get("rdflib_store", "IOMemory")

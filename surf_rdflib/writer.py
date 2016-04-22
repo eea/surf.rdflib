@@ -43,7 +43,6 @@ from reader import ReaderPlugin
 
 class WriterPlugin(RDFWriter):
     def __init__(self, reader, *args, **kwargs):
-        #import pdb; pdb.set_trace()
         RDFWriter.__init__(self, reader, *args, **kwargs)
         if isinstance(self.reader, ReaderPlugin):
             self.__rdflib_store = self.reader.rdflib_store
@@ -57,9 +56,9 @@ class WriterPlugin(RDFWriter):
             self.__rdflib_identifier = kwargs.get("rdflib_identifier") 
             self.__commit_pending_transaction_on_close = \
                 kwargs.get("commit_pending_transaction_on_close", True)
-                        
+
             self.__graph = ConjunctiveGraph(store = self.__rdflib_store, identifier = self.__rdflib_identifier)
-            
+
             warnings.warn("Graph is not readable through the reader plugin", 
                           UserWarning)
 
