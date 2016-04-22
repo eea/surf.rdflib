@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.2.dev0 - (unreleased)
------------------------
+1.2 - (2016-04-22)
+------------------
 * Bug fix: fixed entry_points
   [alecghica refs #70945]
 
