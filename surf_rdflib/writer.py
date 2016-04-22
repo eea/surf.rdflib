@@ -43,6 +43,7 @@ from reader import ReaderPlugin
 
 class WriterPlugin(RDFWriter):
     def __init__(self, reader, *args, **kwargs):
+        #import pdb; pdb.set_trace()
         RDFWriter.__init__(self, reader, *args, **kwargs)
         if isinstance(self.reader, ReaderPlugin):
             self.__rdflib_store = self.reader.rdflib_store
