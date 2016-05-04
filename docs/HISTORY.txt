@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.3.dev0 - (unreleased)
------------------------
+1.3 - (2016-05-04)
+------------------
 * Change: cleanup
   [alecghica refs #70945]
 
